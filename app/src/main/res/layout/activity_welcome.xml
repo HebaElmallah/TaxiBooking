@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WelcomeActivity"
+    android:background="@drawable/welcome">
+
+    <Button
+        android:id="@+id/welcome_driver_btn"
+        android:layout_width="130dp"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="292dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="#F4F1F1"
+        android:shadowColor="#FAF4F4"
+        android:text="I'm a Driver"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#DD0707"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/welcome_customer_btn"
+        android:layout_width="130dp"
+        android:layout_height="60dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="7dp"
+        android:layout_marginRight="7dp"
+        android:layout_marginBottom="269dp"
+        android:background="#F10303"
+        android:shadowColor="#BC0E0E"
+        android:text="I'm a Customer"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#F4F1F1"
+        android:textSize="18sp" />
+</RelativeLayout>
